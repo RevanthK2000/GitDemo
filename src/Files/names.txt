@@ -2,8 +2,6 @@ Alphabets
 a
 b
 c
-d
-e
-f
+
 Numbers
 123445667
