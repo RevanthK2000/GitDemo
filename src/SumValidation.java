@@ -8,7 +8,7 @@ import io.restassured.path.json.JsonPath;
 
 public class SumValidation {
 
-	//Verify if Sum of all Course prices matches with�Purchase�Amount
+	//Verify if Sum of all Course prices matches with Purchase Amount
 
 	@Test
 	
@@ -30,6 +30,9 @@ public class SumValidation {
 		
 		System.out.println("NEW BRANCH");
 		System.out.println("Total Sum = "+sum);
+
+                System.out.println("Second NEW BRANCH");
+                 System.out.println("Third NEW BRANCH");
 		
 
 		
