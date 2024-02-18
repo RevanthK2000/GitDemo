@@ -9,7 +9,7 @@ import io.restassured.path.json.JsonPath;
 
 public class SumValidation {
 
-	//Verify if Sum of all Course prices matches with Purchase Amount
+	//Verify if Sum of all Course prices matches withï¿½Purchaseï¿½Amount
 
 	@Test
 	
@@ -27,6 +27,7 @@ public class SumValidation {
 		System.out.println(sum);
 		int purchaseAmount = js.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(sum, purchaseAmount);
+		System.out.println("First Comment");
 
 		
 	}
