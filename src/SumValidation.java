@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Files.payLoad;
-
 import io.restassured.path.json.JsonPath;
 
 public class SumValidation {
@@ -28,6 +27,10 @@ public class SumValidation {
 		int purchaseAmount = js.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(sum, purchaseAmount);
 		System.out.println("First Comment");
+		
+		System.out.println("NEW BRANCH");
+		System.out.println("Total Sum = "+sum);
+		
 
 		
 	}
